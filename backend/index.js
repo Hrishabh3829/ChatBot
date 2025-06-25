@@ -13,7 +13,7 @@ const app=express()
 
 //middleware
 app.use(cors({
-    origin:"https://chatbot-frontend-6qhx.onrender.com",
+    origin:"https://chatbot-frontend-oszs.onrender.com",
     credentials:true
 }))
 const port=process.env.PORT
